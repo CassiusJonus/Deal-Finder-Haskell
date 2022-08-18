@@ -2,7 +2,7 @@
 
 ## Description
 
-This application searches for a product that a user specifies and finds the
+This project is a deal This application searches for a product that a user specifies and finds the
 lowest price of that product if it was found.
 Currently, the app will be limited to Walmart.com and Amazon.com, but I plan to
 expand the number of online retailers in future versions.
