@@ -7,6 +7,13 @@ lowest price of that product if it was found.
 Currently, the app will be limited to Walmart.com and Amazon.com, but I plan to
 expand the number of online retailers in future versions.
 
+Features
+
+- Search for the cheapest price for a product among various online retailers
+- Get the lowest price for a product with a link to the product page
+- Save the results of a search to persistent storage (currently a json file) so
+- that it can be compared with any future search results.
+
 ## Usage
 
 When the app is run, the user will be prompted to enter a product to search for.
@@ -16,3 +23,9 @@ display a message containing the result. If the productcould not be found, the
 app will notify the user and let them search for another product. When the user
 is done searching for products, they can exit the app by typing "exit" in the
 search prompt.
+
+## Library Dependencies
+
+Scalpel, to gather product and price data from online retailers
+Aeson, to encode search results to json and decode them from json
+Text, for faster string operations
