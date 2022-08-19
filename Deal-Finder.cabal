@@ -32,7 +32,10 @@ library
       src
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
-      base >=4.7 && <5
+      aeson >=2.1.0.0
+    , base >=4.7 && <5
+    , generically >=0.1
+    , scalpel >=0.6.2
   default-language: Haskell2010
 
 executable Deal-Finder-exe
@@ -44,7 +47,10 @@ executable Deal-Finder-exe
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       Deal-Finder
+    , aeson >=2.1.0.0
     , base >=4.7 && <5
+    , generically >=0.1
+    , scalpel >=0.6.2
   default-language: Haskell2010
 
 test-suite Deal-Finder-test
@@ -57,5 +63,8 @@ test-suite Deal-Finder-test
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       Deal-Finder
+    , aeson >=2.1.0.0
     , base >=4.7 && <5
+    , generically >=0.1
+    , scalpel >=0.6.2
   default-language: Haskell2010

@@ -3,11 +3,32 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: scalpel-0.6.2@sha256:5f9b4971c6b889048146260ef5c9e8b433785d3a3afe82115466f399b1b169de,1463
+    pantry-tree:
+      size: 405
+      sha256: 6d795b21d88ec3a23690a4d5cb24eb5e5775049a6d19bd1f4540738993bcdc24
+  original:
+    hackage: scalpel-0.6.2
+- completed:
+    hackage: aeson-2.1.0.0@sha256:127f381d97f397c7c56bc5b99d0b5e4c9926be0bcfd8df67115f17392b13e17a,5960
+    pantry-tree:
+      size: 38191
+      sha256: c0be8e1dd65453c821bf812846b77ba415d498321564472042e289c60999e37f
+  original:
+    hackage: aeson-2.1.0.0
+- completed:
+    hackage: generically-0.1@sha256:16d54a08bcdf708395c2200a28ffcba55e90479dc96ed617dbb94f0411f7a7af,1024
+    pantry-tree:
+      size: 232
+      sha256: 302b140ee5ccf6754ab96154486051f9ab989d3cbaa7c9674e1e9f0de7cdd07b
+  original:
+    hackage: generically-0.1
 snapshots:
-  - completed:
-      size: 619170
-      url: https://raw.cassiusJonuscontent.com/commercialhaskell/stackage-snapshots/master/lts/19/19.yaml
-      sha256: a95a93bcb7132bf5f8ad3356998e223947852f57d4da63e0e145870ea90d9d18
-    original:
-      url: https://raw.cassiusJonuscontent.com/commercialhaskell/stackage-snapshots/master/lts/19/19.yaml
+- completed:
+    size: 619170
+    url: https://raw.cassiusJonuscontent.com/commercialhaskell/stackage-snapshots/master/lts/19/19.yaml
+    sha256: a95a93bcb7132bf5f8ad3356998e223947852f57d4da63e0e145870ea90d9d18
+  original:
+    url: https://raw.cassiusJonuscontent.com/commercialhaskell/stackage-snapshots/master/lts/19/19.yaml

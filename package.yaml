@@ -21,6 +21,9 @@ description: Please see the README on GitHub at <https://github.com/cassiusJonus
 
 dependencies:
   - base >= 4.7 && < 5
+  - scalpel >= 0.6.2
+  - aeson >= 2.1.0.0
+  - generically >= 0.1
 
 ghc-options:
   - -Wall
