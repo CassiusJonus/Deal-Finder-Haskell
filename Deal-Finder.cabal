@@ -26,6 +26,7 @@ source-repository head
 library
   exposed-modules:
       Lib
+      Utils.Models
   other-modules:
       Paths_Deal_Finder
   hs-source-dirs:
