@@ -10,9 +10,9 @@ expand the number of online retailers in future versions.
 Features
 
 - Search for the cheapest price for a product among various online retailers
-- Get the lowest price for a product with a link to the product page
+- Get the lowest price for a product with the product name and a link to the product page
 - Save the results of a search to persistent storage (currently a json file) so
-- that it can be compared with any future search results.
+  that it can be compared with any future search results.
 
 ## Usage
 
