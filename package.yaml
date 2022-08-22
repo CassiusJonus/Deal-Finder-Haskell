@@ -24,6 +24,7 @@ dependencies:
   - scalpel >= 0.6.2
   - aeson >= 2.1.0.0
   - generically >= 0.1
+  - QuickCheck >= 2.14.0+
 
 ghc-options:
   - -Wall

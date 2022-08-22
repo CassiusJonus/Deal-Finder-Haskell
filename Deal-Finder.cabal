@@ -32,7 +32,8 @@ library
       src
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
-      aeson >=2.1.0.0
+      QuickCheck >=2.14.0
+    , aeson >=2.1.0.0
     , base >=4.7 && <5
     , generically >=0.1
     , scalpel >=0.6.2
@@ -47,6 +48,7 @@ executable Deal-Finder-exe
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       Deal-Finder
+    , QuickCheck >=2.14.0
     , aeson >=2.1.0.0
     , base >=4.7 && <5
     , generically >=0.1
@@ -63,6 +65,7 @@ test-suite Deal-Finder-test
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       Deal-Finder
+    , QuickCheck >=2.14.0
     , aeson >=2.1.0.0
     , base >=4.7 && <5
     , generically >=0.1
